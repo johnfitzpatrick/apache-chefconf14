@@ -1,5 +1,6 @@
 name              'apache2'
-maintainer        'Opscode, Inc.'
+maintainer        "YOUR_COMPANY_NAME"
+# maintainer        'Opscode, Inc.'
 maintainer_email  'cookbooks@opscode.com'
 license           'Apache 2.0'
 description       'Installs and configures all aspects of apache2 using Debian style symlinks with helper definitions'
@@ -60,7 +61,7 @@ supports 'redhat'
 supports 'scientific'
 supports 'ubuntu'
 
-depends 'logrotate'
+# depends 'logrotate'
 depends 'pacman'
 
 attribute 'apache',
